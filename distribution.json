@@ -1,0 +1,971 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Pudol-1.20.1",
+      "name": "Pudol (Minecraft 1.20.1)",
+      "description": "Pudol Running Minecraft 1.20.1 (Forge v47.4.0)",
+      "icon": null,
+      "version": "",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://puuuudol.github.io/test/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://puuuudol.github.io/test/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://puuuudol.github.io/test/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://puuuudol.github.io/test/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://puuuudol.github.io/test/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://puuuudol.github.io/test/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://puuuudol.github.io/test/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://puuuudol.github.io/test/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.afoxxvi:asteorbar:1.5@jar",
+          "name": "AsteorBar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152215,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/asteorbar-forge-1.20.1-1.5.jar",
+            "MD5": "a54ac0a086480ffd628d4ba04ec9b751"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.20@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244994,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.20.jar",
+            "MD5": "143d3e76139de3b9186849f494a41af6"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8762342,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/DungeonsArise-1.20.x-2.1.58-release.jar",
+            "MD5": "6ac48d0cf2ce763824f96f6d26963219"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:32@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9835,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/FastLeafDecay-32.jar",
+            "MD5": "20df3e3525622d6ea38a243be828ef38"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.1+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 550551,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.1.jar",
+            "MD5": "e36b4d172480009220be7eae12490943"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1379220,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.106.jar",
+            "MD5": "245af433575aef3a47ae73492196018f"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:2.1.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204574,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/justzoom_forge_2.1.1_MC_1.20.1.jar",
+            "MD5": "758fe904b5a22ce7b2df824c1a064858"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55258,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+            "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.1.5@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47157607,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/tacz-1.20.1-1.1.5-all.jar",
+            "MD5": "1ad1d97415a7112431d020fe12dda6da"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:9.1.38@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1173691,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/forgemods/required/travelersbackpack-forge-1.20.1-9.1.38.jar",
+            "MD5": "f11cc7cf3f05b1e97a071301eca1c65c"
+          }
+        },
+        {
+          "id": "asteorbar-client.toml",
+          "name": "asteorbar-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 14177,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/asteorbar-client.toml",
+            "MD5": "50c0072a3a7301595de98d2c0b78aaac",
+            "path": "config/asteorbar-client.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "ff4a7385b9055dfa51e5965a95e0fa94",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "13f433cb33f876d092096c11da58e2c1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jade/jade.json",
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1718,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jade/plugins.json",
+            "MD5": "26ed088a9bc2374966863a9ca42d9898",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1542,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "a6b9abb62981fa40874f95cfb5441f9b",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 64,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "d3b73575c97f59d6c3f19de1780f60f8",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7991,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1338,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 918,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 390,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "f0eb09a096a2237a033ea4e05c588723",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 474,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/justzoom/config.txt",
+            "MD5": "9870d9afbe93cb329c8daa34e50d078d",
+            "path": "config/justzoom/config.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "legendarytooltips-common.toml",
+          "name": "legendarytooltips-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8283,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/legendarytooltips-common.toml",
+            "MD5": "e32f4adaed9c80edf3f33b30f2f44c68",
+            "path": "config/legendarytooltips-common.toml"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/oculus.properties",
+            "MD5": "32057434fcdae93ee9efa95fa6b66501",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "tacz-client.toml",
+          "name": "tacz-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2320,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/tacz-client.toml",
+            "MD5": "f378ea74ffc3ee91a26f0b177dca0720",
+            "path": "config/tacz-client.toml"
+          }
+        },
+        {
+          "id": "tacz-common.toml",
+          "name": "tacz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1906,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/tacz-common.toml",
+            "MD5": "052ac11b7af237e435199e5a300d2acc",
+            "path": "config/tacz-common.toml"
+          }
+        },
+        {
+          "id": "travelersbackpack-client.toml",
+          "name": "travelersbackpack-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1118,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/travelersbackpack-client.toml",
+            "MD5": "9af7d1795176031ca847712a834702d3",
+            "path": "config/travelersbackpack-client.toml"
+          }
+        },
+        {
+          "id": "travelersbackpack-common.toml",
+          "name": "travelersbackpack-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/config/travelersbackpack-common.toml",
+            "MD5": "83f7b19c4d4c0c0a2cafb0975416e3d0",
+            "path": "config/travelersbackpack-common.toml"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7346,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/options.txt",
+            "MD5": "554a376f66276de8fd2de4c9006b3c7a",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://puuuudol.github.io/test/servers/Pudol-1.20.1/files/resourcepacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "resourcepacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
